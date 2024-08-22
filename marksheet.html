@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARKSHEET</title>
+    <script>
+var name = prompt("ENTER YOUR NAME");
+var roll = prompt("ENTER YOUR ROLL NUMBEBR");
+var standar = prompt("ENTER YOUR CLASS");
+var urdu = prompt("ENTER YOUR URDU MARKS");
+var math = prompt("ENTER YOUR MATH MARKS");
+var scinece = prompt("ENTER YOUR SCINECE MARKS");
+var sindhi = prompt("ENTER YOUR SINDHI MARKS");
+var obtained_marks = parseInt(urdu) + parseInt(math) + parseInt(scinece) + parseInt(sindhi);
+ var parcentage =  obtained_marks * 100/400;
+document.write("YOUR NAME IS:" + name +"<br/>");
+document.write( "YOUR ROLL NUMMBER IS:" + roll +"<br/>");
+"<br/>"
+document.write("YOUR CLASS IS:" + standar +"<br/>");
+"<br/>"
+document.write("YOUR TOTAL MARKS IS" + obtained_marks +"<br/>");
+"<br/>"
+document.write("YOUR PARCENTAGE:" + parcentage +"<br/>");
+"<br/>"
+if(parcentage >= 80){
+    document.write("YOUR GRADE IS: A_1");
+}
+ else if (parcentage >= 70){
+    document.write("YOUR GRADE IS: A");
+}
+else if (parcentage >= 60){
+    document.write("YOUR GRADE IS: B");
+}
+
+else if (parcentage >= 50){
+    document.write("YOUR GRADE IS: C");
+}
+else if (parcentage >= 35){
+    document.write("YOUR GRADE IS: D");
+}
+else  (parcentage >= 30);{
+    document.write("YOUR are: FAIL !!!");
+}
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
